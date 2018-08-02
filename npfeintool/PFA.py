@@ -1,15 +1,13 @@
 """
 Module for Principal Feature Analysis
-PFA method
+PFA method is used to find the most magnificent features
 """
 from nptdms import TdmsFile
 from sklearn import preprocessing 
 import pandas as pd
 import numpy as np
-#from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from collections import defaultdict
-#from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import seglearn as sgl
 from matplotlib.mlab import PCA
