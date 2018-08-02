@@ -20,7 +20,7 @@ nptdms
 matplotlib.pyplot
 matplotlib.mlab 
 
-pip install $name_of_module
+pip install requirements.txt
 ```
 
 ### Installing
