@@ -1,6 +1,8 @@
-# Project Title
+# npFeintool
 
-One Paragraph of project description goes here
+This npFeintool python Package is developed for Feintool data processing. 
+npFeintool package contributes to the preprocessing, **time series data segmentation**, **trend detection**,etc.
+And more features and methods will be added into this repository.
 
 ## Getting Started
 
@@ -11,7 +13,14 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+sklearn
+pandas
+numpy
+nptdms
+matplotlib.pyplot
+matplotlib.mlab 
+
+pip install $name_of_module
 ```
 
 ### Installing
@@ -21,28 +30,17 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+pip install npFeintool(to do)
 ```
 
-And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+run the `test.py` in the repository `.\example\test.py`
 
-### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ### And coding style tests
 
@@ -72,9 +70,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Sherry Yang** - *Initial work* - [tintinsnowy](https://github.com/tintinsnowy)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Senseering/npFeinTool/graphs/contributors) who participated in this project.
 
 ## License
 
