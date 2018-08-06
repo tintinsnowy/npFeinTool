@@ -1,12 +1,13 @@
-from  nptdmsnptdms  import
-import  TdmsFileTdmsFil 
+from nptdms import TdmsFile
+from sklearn import preprocessing 
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
+from collections import defaultdict
 import matplotlib.pyplot as plt
 import seglearn as sgl
 from matplotlib.mlab import PCA
-import npFeintool as npF
+import npfeintool as npF
 
 # load in data, take the TDMS data type as example
 tdms_file = TdmsFile(".\\FW-1-1\\AKF-FW1-1-H1021-1500.tdms")
