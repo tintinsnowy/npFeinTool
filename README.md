@@ -19,7 +19,7 @@ numpy
 nptdms
 matplotlib.pyplot
 matplotlib.mlab 
-
+...
 pip install $name_of_module
 ```
 
@@ -27,10 +27,10 @@ pip install $name_of_module
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Say what the step will be(currently still in beta version)
 
 ```
-pip install npFeintool(to do)
+ pip install --index-url https://test.pypi.org/simple/ npFeintool
 ```
 
 
@@ -40,15 +40,6 @@ End with an example of getting some data out of the system or using it for a lit
 
 run the `test.py` in the repository `.\example\test.py`
 
-
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
