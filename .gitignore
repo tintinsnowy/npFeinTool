@@ -3,3 +3,7 @@
 
 #Feintool Data Ignore
 feintool_data
+build
+dist
+npFeintool.egg-info
+.ipynb*

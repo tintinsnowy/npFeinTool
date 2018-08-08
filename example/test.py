@@ -32,13 +32,13 @@ e.g. we select only one channel data to segementation
 
 df_power = df['SupplyUnit 50U4 (Unidrive M701 Regen).Transmit PDO Mapping 8.Leistung']
 df_seg = npF.SW_seg(df_power, 968)
-
+df_power[1:400].plot()
 '''
 Step 3: after get the single unit, we can go further to detect the trend, or event
 e.g. params are: dataset, delta, window size
 '''
 # choose one unit to dectec the trends
-npF.Trend_Detection(df_seg[1], 279, 1000)
+#npF.Trend_Detection(df_seg[2], 279, 1000)
 # choose the whole sequences 
-npF.Trend_Detection(df_power, 279, 1000)
+#npF.Trend_Detection(df_power, 279, 1000)
 

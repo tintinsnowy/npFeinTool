@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="npFeintool",
-    version="0.0.5",
+    version="0.0.9",
     author="Sherry Yang",
     author_email="yangxiaoli1994@gmail.com",
     description="npFeintool is used for the time series data processing",

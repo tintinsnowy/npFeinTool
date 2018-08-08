@@ -39,7 +39,11 @@ End with an example of getting some data out of the system or using it for a lit
 ## Running the tests
 
 run the `test.py` in the repository `.\example\test.py`
+put the readin file under the same repository
 
+```
+python3 test.py
+```
 
 ## Deployment
 
