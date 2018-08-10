@@ -7,3 +7,6 @@ build
 dist
 npFeintool.egg-info
 .ipynb*
+.png
+test_phil.py
+test.csv
