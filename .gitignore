@@ -10,3 +10,5 @@ npFeintool.egg-info
 .png
 test_phil.py
 test.csv
+pipeline.ipynb
+test_for_ruptures.ipynb
