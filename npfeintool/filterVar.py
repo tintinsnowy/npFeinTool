@@ -17,11 +17,11 @@ def kill_all_x(x, df=None):
 		return "the data frame is empty."
 	num_attr = df.columns.size
 	dropall = []
-	for i in range(0,num_attr):
+	for i in range(0, num_attr):
 		index = df.columns[i]
-		if(all(df[index]==x)):
+		if all(df[index] == x):
 			dropall.append(df.columns[i])
-	df.drop(dropall, axis = 1, inplace= True)
+	df.drop(dropall, axis=1, inplace=True)
 	return df
 
 def keep_x_var(x, df=None):

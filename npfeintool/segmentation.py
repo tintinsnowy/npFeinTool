@@ -15,7 +15,7 @@ def SW_seg(df_power, width):
 	df_seg = []
 	size_df = df_power.size
 	anchor = 1 
-	while((anchor+width*3) < size_df): 
+	while ((anchor+width*3) < size_df): 
 		mid = df_power[anchor+width: anchor+width*3].idxmax()
 		seg = df_power[mid-width: mid+width]
 		df_seg.append(seg.values)
@@ -37,9 +37,9 @@ def Trend_Detection(s_fr, delta, win_size):
 	i = 0
 	j = i;
 	
-	while (i<len_s):
-		k = Trend_Change(s_fr[j:i+win_size],delta)
-		if (k != -1):
+	while (i < len_s):
+		k = Trend_Change(s_fr [j : i+win_size], delta)
+		if(k != -1):
 		   df[j:j+k].plot()
 		   df[j+k+1:i+win_size].plot()
 		   j = i+win_size 

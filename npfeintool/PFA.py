@@ -3,7 +3,7 @@ Module for Principal Feature Analysis
 PFA method is used to find the most magnificent features
 """
 from nptdms import TdmsFile
-from sklearn import preprocessing 
+from sklearn import preprocessing
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
@@ -17,7 +17,7 @@ class PFA(object):
     def __init__(self, n_features, q=None):
         self.q = q
         self.n_features = n_features
-
+        
     def fit(self, X):
         if not self.q:
             self.q = X.shape[1]
