@@ -46,12 +46,12 @@ def main():
 	
 	# =========Step 4: classification=========
 	for i in range(0,8):
-	    print("Trend:"+str(i+1))
+	    print("Trend:" + str(i+1))
 	    s = SEH.Uniformation(punch_seg[i])
-	    clusters = pd.read_csv("cluster_"+str(i)+".csv")
-	    data_train= SEH.Uniformation(segmentations[i])
-	    row,col=data_train.shape
-	    col= min(len(s),col)
+	    clusters = pd.read_csv("cluster_" + str(i) + ".csv")
+	    data_train = SEH.Uniformation(segmentations[i])
+	    row,col = data_train.shape
+	    col = min(len(s),col)
 	    print("Result:.........")
 	    s = s[0:col]
 	    test = pd.DataFrame([s,s])
@@ -75,7 +75,7 @@ def save_newdata(punch_seg):
 		path = "segmentation_"+str(i)+".csv"
 		i = i+1
 		with open(path,'a') as fd:
-			fd.write(row)
+			fd.write(str(row))
 def read_from_file():
     # sss.tocsv("xxx.csv")
     segmentations=[[],[],[],[],[],[],[],[],[]]

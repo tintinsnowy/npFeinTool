@@ -131,8 +131,7 @@ class SegHub(object):
             for the length smaller than the len_mnum, we use the interpolate to compansate.
             '''
             rows = np.flatnonzero(lens<len_mnum)
-            rest.iloc[rows,0:len_mnum] = rest.iloc[rows,0:len_mnum].
-                                            interpolate(method='linear',downcast='infer',axis = 1 )
+            rest.iloc[rows,0:len_mnum] = rest.iloc[rows,0:len_mnum].interpolate(method='linear',downcast='infer',axis = 1 )
             return rest
         
     def print_clusters(self ,timeSeries, z, k, plot=False):
